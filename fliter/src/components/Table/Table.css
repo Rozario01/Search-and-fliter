@@ -1,0 +1,26 @@
+.TableContainer {
+  overflow-x: auto;
+}
+
+.tables {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+@media (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+}
